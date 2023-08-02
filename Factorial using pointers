@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int num,fact=1;
+	int *p1,*p2;
+	printf("enter a num:");
+	scanf("%d",&num);
+	p1=&num;
+	p2=&fact;
+	do
+	{
+		*p2=(*p2)*(*p1);
+		*p1=*p1-1;
+	}
+	while(*p1>0);
+	printf("\nfactorial of num is:%d",*p2);
+	return 0;
+}
