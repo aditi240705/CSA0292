@@ -1,0 +1,21 @@
+#include<stdio.h>
+long power(int,int);
+int main()
+{
+   int base,exp,value;
+    printf("enter base:");
+    scanf("%d",&base);
+    printf("enter exp:");
+    scanf("%d",&exp);
+    value=power(base,exp);
+    printf("%d^%d=%ld",base,exp,value);
+    return 0;
+}
+long power(int x,int y)
+{
+    if(exp)
+    {
+      return(base*power(base,exp-1);
+    }
+  return 1;
+}
